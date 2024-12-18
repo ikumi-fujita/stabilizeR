@@ -1,5 +1,4 @@
 library("EBImage")
-library("compiler")
 
 ### IMPUT IMAGE SEQUENCE ###
 dir <- "/Volumes/ArchiveHD1/170418-PHA7-LGN-E11-prj/"
@@ -86,5 +85,3 @@ stabilizer <- function() {
     writeImage(Im,paste("/Volumes/ArchiveHD1/170418-PHA7-LGN-E11-prj/",mov,"/XY-adj/",names[i],sep=""))
   }
 }
-
-stabilizer.comp <- cmpfun(stabilizer)
