@@ -3,6 +3,5 @@
 .RData
 .Ruserdata
 .RDataTmp
-renv
 data
 result
